@@ -100,4 +100,7 @@
 <p>Espresso - Espresso is a Testing Framework for Android to make it easy to write reliable user inteface tests.</p>
 <p>Mockito - Mockito is a popular mocking library for clean and readable unit tests. 
 
+## Architecture
+<p>This app uses MVVM (Model View View-Model) architecture.</p>
+![MVVM](https://user-images.githubusercontent.com/58938625/98555415-d2635d00-2299-11eb-9e49-99fb9966ea7e.png)
 
