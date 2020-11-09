@@ -104,5 +104,7 @@
 
 ## Architecture
 <p>This app uses MVVM (Model View View-Model) architecture.</p>
-![MVVM](https://user-images.githubusercontent.com/58938625/98555415-d2635d00-2299-11eb-9e49-99fb9966ea7e.png)
+
+![MVVM](https://user-images.githubusercontent.com/58938625/98557626-59b1d000-229c-11eb-9be3-44115ecd55ba.png)
+
 
