@@ -23,18 +23,23 @@ class ArticleListFragmentTest {
     val fakeLoadingState= MediatorLiveData<LoadingState>()
 
     @Test
+    fun test_mainActivityIsDisplayed() {
+        emitLoadingState(LoadingState.LOADING)
+        Espresso.onView(withId(R.id.main)).check(ViewAssertions.matches(ViewMatchers.isDisplayed()))
+    }
+
+    @Test
+    fun test_isFragmentArticleListVisible() {
+        emitLoadingState(LoadingState.LOADING)
+        Espresso.onView(withId(R.id.Articlelist_fragment_layout))
+            .check(ViewAssertions.matches(ViewMatchers.isDisplayed()))
+    }
+
+    @Test
     fun test_isRecyclerviewVisible() {
         Espresso.onView(ViewMatchers.withId(R.id.recycler_view)).check(
                 ViewAssertions.matches(
                         ViewMatchers.isDisplayed()))
-    }
-
-    @Test
-    fun test_isProgressBarShowing() {
-        emitLoadingState(LoadingState.LOADING)
-        Espresso.onView(withId(R.id.progressBar)).check(
-                ViewAssertions.matches(
-                        ViewMatchers.withEffectiveVisibility(ViewMatchers.Visibility.VISIBLE)))
     }
 
     @Test
