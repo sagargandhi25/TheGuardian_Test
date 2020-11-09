@@ -96,7 +96,7 @@
   </ul>
 <p>Koin - It's a lightweight dependency injection framework for kotlin.<p>
 <p>Retrofit - A type-safe HTTP client for Android and Java.</p>
-<p>MOSHI - Moshi is a modern JSON library for Android and Java. It makes it easy to parse JSON into Java objects.<p>
+<p>Moshi - Moshi is a modern JSON library for Android and Java. It makes it easy to parse JSON into Java objects.<p>
 <p>Glide - An image loading library for Android </p>
 <p>Material Components for Android - Modular and customizable Material Design UI components for Android.</p>
 <p>Espresso - Espresso is a Testing Framework for Android to make it easy to write reliable user inteface tests.</p>
