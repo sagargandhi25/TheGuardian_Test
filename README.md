@@ -1,3 +1,5 @@
+
+
 # TheGuardian News
 ## About
 <p>It simply loads Article data from API and stores it in persistence storage (i.e SQLite Database). Articles will be always loaded from local database. 
