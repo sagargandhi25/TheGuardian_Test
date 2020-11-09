@@ -1,4 +1,4 @@
-
+![screenshot](https://user-images.githubusercontent.com/58938625/98558576-82869500-229d-11eb-8005-201f6320ff79.png)
 
 # TheGuardian News
 ## About
